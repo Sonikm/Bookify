@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { useFirebase } from "../context/Firebase";
-import WelcomePage from "./WelcomePage";
 import { useNavigate } from "react-router-dom";
 
 function LoginPage() {
